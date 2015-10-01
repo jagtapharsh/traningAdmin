@@ -1,0 +1,92 @@
+.animated.fadeInRight
+  .row.notifiBar
+         .col-xs-12.col-md-3.haedTittle
+          span 
+           |Elements   
+          span
+           | &nbsp;> Checkboxes
+
+         .col-xs-12.col-md-4.pull-right.col-md-offset-5.contentRlink 
+          .col-xs-2.col-md-2
+           span
+            i.fa.fa-globe
+          .col-xs-2.col-md-2
+           span
+            i.fa.fa-envelope
+          .col-xs-2.col-md-2
+           span
+            i.fa.fa-bell-o
+          .col-xs-6.col-md-6
+           span.row-picture.pull-left
+            img.circle(src="img/avatar-5.png")
+           span.userName.pull-left
+            |Christos
+        .row.lodePgeCon.element
+          .col-xs-12.innerText
+            p 
+             |Checkboxes allow the user to select multiple options from a set. If you have multiple on/off options appearing in a list, checkboxes are a good way to preserve space.
+             
+            p
+             |Checkboxes use animation to communicate focused and pressed states.  
+            
+          .col-xs-12.flatButton
+            ul.nav.nav-tabs
+             li.active.htmlExmp
+              a(data-toggle="tab" href="#menu1")
+               |EXAMPLE  
+             li.htmlCodeDisplay 
+              a(data-toggle="tab" href="#menu2") 
+               |HTML 
+          .col-xs-12.flatBDemoCoun.tab-content
+           .flatChekDemo#menu1.col-xs-12.tab-pane.slide.in.active.animated.fadeInLeft
+             div.checkSampal.examPan
+               div.checkbox.checkbox-material-yellow-600
+                label
+                 input(type="checkbox") 
+                 span.checkText
+                  |Default Checkbox                
+               div.checkbox.checkbox-primary 
+                label
+                 input(type="checkbox")
+                 span.checkText
+                  |Primary Checkbox
+               div.checkbox.checkbox-warning
+                label
+                 input(type="checkbox")
+                 span.checkText
+                  |Warn Checkbox 
+               div.checkbox.checkbox-material-blue-grey-50
+                label
+                 input(type="checkbox" disabled)
+                 span.checkText.checkDisable
+                  |Warn Checkbox     
+               div.checkbox.checkbox-material-blue-grey-50
+                label
+                 input(type="checkbox" disabled checked)
+                 span.checkText.checkDisable
+                  |Warn Checkbox           
+           .flatBCode#menu2.col-xs-12.tab-pane.animated.fadeInRight                    
+              pre 
+               <span>&lt;</span><span>md-button ng-class="[vm.buttonClass, vm.buttonHue]" aria-label="flat button"</span><span>&gt;</span><span>Button</span><span>&lt;</span><span>/md-button</span><span>&gt;</span>
+
+               <span>&lt;</span><span>md-select placeholder="Choose a style" ng-model="vm.buttonClass"</span><span>&gt;</span><span>&lt;</span><span>/md-option</span><span>&gt;</span>
+
+               <span>&nbsp;<span><span>&nbsp;<span><span>&nbsp;<span><span>&lt;</span><span>md-option value="md-primary"</span><span>&gt;</span>Primary<span></span> <span>&lt;</span><span>/md-option</span><span>&gt;</span>
+
+               <span>&nbsp;<span><span>&nbsp;<span><span>&nbsp;<span><span>&lt;</span><span>md-option value="md-primary"</span><span>&gt;</span>Accent<span></span><span>&lt;</span><span>/md-option</span><span>&gt;</span>
+
+               <span>&nbsp;<span><span>&nbsp;<span><span>&nbsp;<span><span>&lt;</span><span>md-option value="md-primary"</span><span>&gt;</span>Warn<span></span> <span>&lt;</span><span>/md-option</span><span>&gt;</span>
+
+               <span>&lt;</span><span>/md-button</span><span>&gt;</span>
+
+               <span>&lt;</span><span>md-button ng-class="[vm.buttonClass, vm.buttonHue]" aria-label="flat button"</span><span>&gt;</span><span>Button</span><span>&lt;</span><span>/md-button</span><span>&gt;</span>
+
+               <span>&lt;</span><span>md-select placeholder="Choose a style" ng-model="vm.buttonClass"</span><span>&gt;</span><span>&lt;</span><span>/md-option</span><span>&gt;</span>
+               
+               <span>&nbsp;<span><span>&nbsp;<span><span>&nbsp;<span><span>&lt;</span><span>md-option value="md-primary"</span><span>&gt;</span>Primary<span></span> <span>&lt;</span><span>/md-option</span><span>&gt;</span>
+
+               <span>&nbsp;<span><span>&nbsp;<span><span>&nbsp;<span><span>&lt;</span><span>md-option value="md-primary"</span><span>&gt;</span>Accent<span></span><span>&lt;</span><span>/md-option</span><span>&gt;</span>
+
+               <span>&nbsp;<span><span>&nbsp;<span><span>&nbsp;<span><span>&lt;</span><span>md-option value="md-primary"</span><span>&gt;</span>Warn<span></span> <span>&lt;</span><span>/md-option</span><span>&gt;</span>
+
+               <span>&lt;</span><span>/md-button</span><span>&gt;</span>
